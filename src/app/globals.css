@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -12,7 +12,7 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   color: var(--foreground);
@@ -20,8 +20,209 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+/* Section1 Starts Here */
+
+.section1 {
+  background-image: url("/images/BGNetflix.jpeg");
+  height: 35rem;
 }
+
+.Navbar {
+  width: 63rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.sign_up {
+  background-color: red;
+  height: 2rem;
+  width: 60px;
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.Texts {
+  height: 32rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33rem;
+  text-align: center;
+  margin-left: 4rem;
+}
+
+.Texts-sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.TextH1 {
+  color: #ffffff;
+  width: 2rem;
+  margin-left: 1rem;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.H1 {
+  font-size: 2.5rem;
+  width: 24rem;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.TextH1_P {
+  width: 24rem;
+  font-size: 13px;
+}
+
+.TextH1_P1 {
+  margin-top: 2rem;
+  width: 26rem;
+  font-size: 13px;
+}
+
+.Forms {
+  margin-top: 2rem;
+  padding: 4px;
+  display: flex;
+  width: 39rem;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 25rem;
+}
+
+.E_mail {
+  height: 3rem;
+  width: 19rem;
+  border: 1px solid rgb(65, 64, 64);
+  border-radius: 3px;
+  background-color: #545252;
+  padding: 5px;
+  color: #ffffff;
+}
+
+.Getstarted {
+  height: 3rem;
+  width: 9rem;
+  background-color: red;
+  border-radius: 3px;
+  color: #ffffff;
+}
+
+.Getstarted:hover {
+  cursor: pointer;
+  background-color: rgb(191, 4, 4);
+}
+
+/* GS-Sec starts Here */
+
+.GS_section1 {
+  height: 32rem;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  height: 9rem;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+}
+
+.texth1 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 26rem;
+  font-size: 38px;
+  text-align: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.textP {
+  width: 23rem;
+  font-size: 15px;
+  text-align: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.TextP {
+  width: 23rem;
+  font-size: 15px;
+  text-align: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.Sendlink {
+  height: 3rem;
+  width: 22rem;
+  background-color: red;
+  border-radius: 3px;
+  color: #ffffff;
+  margin-top: 1rem;
+}
+
+
+/* footer-sec-1 start here */
+
+.Footer {
+  height: 11rem;
+  background-color: #e0dfdf;
+}
+
+.F1 {
+  height: 11rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.F-P {
+  height: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+  font-size: 12px;
+}
+
+/* footer-sec-1 end here */
+
+/* GS-Sec ends Here */
+
+/* Section1 End Here */
+
+
+/* Section2 Start Here */
+
+.Div1 {
+  /* border-top: 2px solid red; */
+  height: 22rem;
+  background-color: black;
+  /* border-radius: 1rem; */
+}
+
+.Div2 {
+  border: 2px solid rgb(0, 0, 0);
+  height: 22rem;
+  border-top: 2px solid red;
+  border-radius: 33rem;
+}
+
+/* Section2 End Here */

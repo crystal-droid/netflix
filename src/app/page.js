@@ -1,9 +1,15 @@
 import React from 'react'
+import Home from '../../ui/Home'
+import HomeSec2 from '../../componet/HomeSec2'
 
-const page = () => {
+const homePage = () => {
   return (
-    <div>page</div>
+    <div>
+      <Home />
+      <HomeSec2 />
+    </div>
+
   )
 }
 
-export default page
+export default homePage
