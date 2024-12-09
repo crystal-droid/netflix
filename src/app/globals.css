@@ -18,13 +18,14 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  /* position: relative; */
 }
 
 /* Section1 Starts Here */
 
 .section1 {
-  background-image: url("/images/BGNetflix.jpeg");
-  height: 35rem;
+  background-image: url("/image/BGNetflix.jpeg");
+  height: auto;
 }
 
 .Navbar {
@@ -127,7 +128,7 @@ body {
 /* GS-Sec starts Here */
 
 .GS_section1 {
-  height: 32rem;
+  height: auto;
 }
 
 .image {
@@ -144,7 +145,7 @@ body {
 }
 
 .texth1 {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   width: 26rem;
   font-size: 38px;
   text-align: center;
@@ -178,15 +179,18 @@ body {
 }
 
 
+/* GS-Sec ends Here */
+
 /* footer-sec-1 start here */
 
 .Footer {
-  height: 11rem;
-  background-color: #e0dfdf;
+  height: 12rem;
+  background-color: #d2d2d2;
 }
 
 .F1 {
-  height: 11rem;
+  height: 12rem;
+  /* width: 55rem; */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -199,30 +203,472 @@ body {
   flex-direction: column;
   justify-content: space-around;
   text-align: left;
-  font-size: 12px;
+  font-size: 14px;
+  /* color: #b1b0b0;
+  text-decoration: underline;
+  cursor: pointer; */
 }
+
+
 
 /* footer-sec-1 end here */
 
-/* GS-Sec ends Here */
 
 /* Section1 End Here */
 
 
 /* Section2 Start Here */
 
-.Div1 {
-  /* border-top: 2px solid red; */
-  height: 22rem;
-  background-color: black;
-  /* border-radius: 1rem; */
+.blank-space {
+  background-color: red;
+  height: 2px;
 }
 
 .Div2 {
-  border: 2px solid rgb(0, 0, 0);
   height: 22rem;
-  border-top: 2px solid red;
-  border-radius: 33rem;
+  background-color: black;
+  color: #ffffff;
+  padding: 1rem;
+}
+
+.Div2-H1 {
+  width: 10rem;
+  font-size: 21px;
+  margin-top: 1rem;
+}
+
+.images {
+  /* border: 2px solid red; */
+  display: flex;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
+.BGIS {
+  border: 2px solid rgb(167, 167, 167);
+  background-color: #000000;
+  position: relative;
+  bottom: 32rem;
+  left: 18rem;
+  color: #ffffff;
+  width: 30rem;
+  height: 36rem;
+  /* background-image: url("/images/Lisabi.jpg"); */
+  z-index: 2;
+  background-repeat: no-repeat;
+  background-size:contain;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+ 
+.BGI {
+  /* border: 2px solid red; */
+  height: 29rem;
+  width: 27rem;
+  margin-top: 6rem;
+}
+ 
+
+.ggg { 
+  /* border: 2px solid rgb(94, 255, 0); */
+  height: .1px;
+ } 
+.IOX {
+   margin-top: 44rem;
+   text-align: right;
+}
+
+.lisabipopup {
+  justify-content: space-around;
+  width: 22rem;
+  display: flex;
+  text-align: center;
+}
+
+.lisabi-signupp {
+  height: 27px;
+  border: 1px solid #545252;
+  background-color: #545252;
+  color: #ffffff;
+  border-radius: 2px;
+}
+.lisabi-signupP {
+  height: 27px;
+  border: 1px solid #545252;
+  background-color: #545252;
+  color: #ffffff;
+  border-radius: 2px;
+  width: 5rem;
+}
+
+.lisabip {
+  width: 30rem;
+}
+
+
+.hitmanpopup {
+  justify-content: space-around;
+  width: 22rem;
+  display: flex;
+  text-align: center;
+}
+
+.hitman-signupp {
+  height: 27px;
+  border: 1px solid #545252;
+  background-color: #545252;
+  color: #ffffff;
+  border-radius: 2px;
+  border: 2px solid blue;
+}
+.hitman-signupP {
+  height: 27px;
+  border: 1px solid #545252;
+  background-color: #545252;
+  color: #ffffff;
+  border-radius: 2px;
+  width: 5rem;
+}
+
+.hitman {
+  border: 2px solid red;
+  width: 35rem;
 }
 
 /* Section2 End Here */
+
+
+/* Section3 Start Here */
+
+.Blocks {
+  background-color: black;
+  padding: 1rem;
+  color: #ffffff;
+  height: auto;
+}
+
+.Blocksh1 {
+  width: 12rem;
+  font-size: 1.2rem;
+}
+
+.Enjoy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.HBh1 {
+  font-size: 1.3rem;
+}
+
+.section3-sub1 {
+  width: 65rem;
+  display: flex;
+  justify-content: space-around;
+  height: 11rem;
+  margin-top: 1rem;
+}
+
+.section3-button {
+  border:  2px solid rgb(34, 0, 255);
+  width: 30rem;
+  height: 10rem;
+  border-radius: 6px;
+  padding: 2px;
+  /* background-color: aquamarine; */
+  background-color: rgb(58, 2, 130);
+}
+
+/* Section3 End Here */
+
+
+/* Footer Start Here */
+
+.footer {
+  height: auto;
+  background-color: #000000;
+  color: #ffffff;
+  /* border: 2px solid rgb(0, 68, 255); */
+  padding: 1rem;
+}
+
+.footerh1 {
+  font-size: 22px;
+}
+
+.navigator {
+  width: 63rem;
+  height: 40rem;
+  padding: 1.6rem;
+  display: flex;
+  justify-content: center;
+}
+
+.netflixfooter {
+  margin-top: 9rem;
+}
+
+.labelp {
+  margin-bottom: 1rem;
+  width: 55rem;
+  height: 4rem;
+  background-color: rgb(45, 44, 44);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 3px;
+  font-size: 1.3rem;
+}
+
+.checker {
+  background-color: rgb(81, 80, 80);
+  margin-top: .8rem;
+  position: absolute;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: none;
+  width: 55rem;
+}
+
+.checkitem {
+  padding: .5rem;
+}
+
+.frequently-asNk-question {
+  font-size: 1.6rem;
+}
+
+/* Footer End Here */
+
+.Form {
+  /* border: 2px solid rgb(255, 0, 0); */
+  background-color: black;
+  height: auto;
+  border: 2px solid rgb(0, 0, 0);
+  
+}
+
+.forms {
+  margin-top: 2rem;
+  padding: 4px;
+  display: flex;
+  width: 39rem;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 12rem;
+}
+
+.E_mail {
+  height: 3rem;
+  width: 26rem;
+  border: 1px solid rgb(65, 64, 64);
+  border-radius: 3px;
+  background-color: #2d2d2d;
+  padding: 5px;
+  color: #ffffff;
+}
+
+.FormP {
+  color: #ffffff;
+  margin-left: 15rem;
+  margin-top: 3rem;
+}
+
+
+/* Footer3 Starts Here */
+
+
+.Footer3 {
+  height: 33rem;
+  color: #b1b0b0;
+  background-color: #000000;
+}
+
+.F3 {
+  height: 22rem;
+  width: 55rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align:left;
+}
+
+.Fp {
+  height: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+  font-size: 14px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.contact-us {
+  height: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+  font-size: 17px;
+  color: #b1b0b0;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.helpCenter {
+  margin-top: 4rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.button {
+  height: 11rem;
+}
+
+.btn {
+  display: none;
+}
+
+.btn:checked+label>.material-symbols--keyboard-arrow-down {
+  transform: rotate(180deg);
+  color: red;
+}
+
+.btn:checked~.checker {
+  display: block;
+}
+
+.checker {
+  background-color: rgb(70, 68, 68);
+  margin-top: .8rem;
+  position: absolute;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: none;
+  width: 8rem;
+  margin-left: 5rem;
+}
+
+.checkitem {
+  padding: .3rem;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+}
+
+.checkitem:hover {
+  cursor: pointer;
+}
+
+.En {
+  border: 2px solid rgb(113, 111, 111);
+  padding: .3rem;
+  border-radius: 5px;
+  width: 8rem;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 5rem;
+}
+
+.shape {
+  margin-bottom: 1px;
+  margin-left: 1rem;
+  color: #ffffff;
+}
+
+.NG {
+  margin-top: 5rem;
+  margin-left: 5rem;
+}
+
+/* Footer3 Ends Here */
+
+
+
+
+@media only screen and (max-width: 769px) {
+ 
+  .Navbar {
+    width: 47rem;
+  }
+
+  .Input {
+    width: 21rem;
+  }
+
+  .E_mail {
+    width: 20rem;
+  }
+  
+
+  .Forms {
+    margin-right: 22rem;
+  }
+
+  .TextH1 {
+    margin-right: 22rem;
+  }
+
+  .Texts-sub {
+    width: 47rem;
+    margin-right: 3rem;
+  }
+
+}
+
+@media only screen and (max-width: 769px) {
+ 
+  .Navbar {
+    width: 47rem;
+  }
+
+  .Input {
+    width: 21rem;
+  }
+
+  .E_mail {
+    width: 20rem;
+  }
+  
+
+  .Forms {
+    margin-right: 22rem;
+  }
+
+  .TextH1 {
+    margin-right: 22rem;
+  }
+
+  .Texts-sub {
+    width: 47rem;
+    margin-right: 3rem;
+  }
+
+
+  .section3-sub1 {
+    width: 48rem;
+    height: 23rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+    .section3-button {
+      width: 90%;
+    }
+
+
+
+
+}
